@@ -5,10 +5,10 @@ from dateutil.relativedelta import relativedelta
 import time
 
 years = []
-for i in range (2010, 2022):
+for i in range (2020, 2022):
   years.append(i)
 
-handles = ['Siemens', 'AstraZeneca', 'bhp', 'Shell', 'UnileverUKI', 'RioTinto', 'DiageoGB', 'HSBC' 'GSK', 'BATplc', 'nationalgriduk', 'bp_plc']
+handles = ['AstraZeneca', 'bhp', 'Shell', 'UnileverUKI', 'RioTinto', 'DiageoGB', 'HSBC', 'GSK', 'BATplc', 'nationalgriduk', 'bp_plc']
 
 for handle in handles :
   for year in years :
